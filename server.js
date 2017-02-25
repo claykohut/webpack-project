@@ -22,4 +22,4 @@ if(process.env.NODE_ENV !== 'production'){
   })
 }
 
-app.listen(process.env.port || 3050, () => console.log('Listening!'))
+app.listen(process.env.PORT || 3050, () => console.log('Listening!'))
